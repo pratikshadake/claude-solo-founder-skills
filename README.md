@@ -67,41 +67,54 @@ Each skill is:
 
 # How to Install
 
+## Using npx (recommended)
+
+```bash
+npx claude-skills install apnerve/claude-solo-founder-skills
+```
+
 ## Global install
 
 ```bash
-git clone https://github.com/<your-username>/claude-solo-founder-skills
-cp -r claude-solo-founder-skills/.claude/skills ~/.claude/
+git clone https://github.com/apnerve/claude-solo-founder-skills
+cp -r claude-solo-founder-skills/.claude/skills ~/.claude/skills/
 ```
 
 ## Project-local install
 ```bash
-cp -r .claude ./your-project/
+git clone https://github.com/apnerve/claude-solo-founder-skills
+cp -r claude-solo-founder-skills/.claude/skills ./.claude/skills/
 ```
+
 Claude will automatically detect and use the skills.
 
 ## How to Use
 
 Just ask normal questions:
 
+```
 Should we build our own billing system or use Stripe?
 Scope an MVP for an AI travel planner.
 Design a growth experiment to increase signups.
-
+```
 
 Claude will automatically apply the relevant skill.
 
 You can also explicitly invoke one:
 
+```
 Use the Build vs Buy Decision Engine.
+```
 
 ## Examples
 
 See real decision walkthroughs in:
 
+```
 examples/
+```
 
-## These demonstrate:
+These demonstrate:
 
 - realistic startup context
 - transparent reasoning
