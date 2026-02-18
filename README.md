@@ -70,20 +70,20 @@ Each skill is:
 ## Using npx (recommended)
 
 ```bash
-npx claude-skills install apnerve/claude-solo-founder-skills
+npx skills add pratikshadake/claude-solo-founder-skills
 ```
 
 ## Global install
 
 ```bash
-git clone https://github.com/apnerve/claude-solo-founder-skills
-cp -r claude-solo-founder-skills/.claude/skills ~/.claude/skills/
+git clone https://github.com/pratikshadake/claude-solo-founder-skills
+cp -r claude-solo-founder-skills/skills ~/.claude/skills/
 ```
 
 ## Project-local install
 ```bash
-git clone https://github.com/apnerve/claude-solo-founder-skills
-cp -r claude-solo-founder-skills/.claude/skills ./.claude/skills/
+git clone https://github.com/pratikshadake/claude-solo-founder-skills
+cp -r claude-solo-founder-skills/skills ./.claude/skills/
 ```
 
 Claude will automatically detect and use the skills.
