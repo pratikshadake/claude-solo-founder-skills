@@ -72,11 +72,12 @@ Each skill is:
 ```bash
 git clone https://github.com/<your-username>/claude-solo-founder-skills
 cp -r claude-solo-founder-skills/.claude/skills ~/.claude/
+```
 
 ## Project-local install
-
+```bash
 cp -r .claude ./your-project/
-
+```
 Claude will automatically detect and use the skills.
 
 ## How to Use
